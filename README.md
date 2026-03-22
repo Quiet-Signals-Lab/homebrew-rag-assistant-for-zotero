@@ -1,0 +1,27 @@
+# Homebrew Tap for RAG Assistant for Zotero
+
+AI-powered research assistant for your Zotero library.
+
+## Installation
+
+```bash
+brew tap aahepburn/rag-assistant-for-zotero
+brew install --cask rag-assistant-for-zotero
+```
+
+## Updating
+
+```bash
+brew update
+brew upgrade rag-assistant-for-zotero
+```
+
+## Uninstalling
+
+```bash
+brew uninstall --cask rag-assistant-for-zotero
+```
+
+## More Information
+
+Visit the [main repository](https://github.com/aahepburn/RAG-Assistant-for-Zotero) for documentation and support.
