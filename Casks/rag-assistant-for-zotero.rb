@@ -14,6 +14,12 @@ cask "rag-assistant-for-zotero" do
 
   app "RAG Assistant.app"
 
+  caveats <<~EOS
+    If the app is blocked by macOS Gatekeeper, run:
+      xattr -cr /Applications/RAG\\ Assistant.app
+    Then try opening it again.
+  EOS
+
   zap trash: [
     "~/Library/Application Support/rag-assistant",
     "~/Library/Preferences/com.aahepburn.zotero-rag.plist",
