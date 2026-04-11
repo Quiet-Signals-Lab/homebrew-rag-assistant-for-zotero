@@ -15,9 +15,10 @@ cask "rag-assistant-for-zotero" do
   app "RAG Assistant.app"
 
   caveats <<~EOS
-    If the app is blocked by macOS Gatekeeper, run:
+    macOS Gatekeeper will block this app on first launch because it is not notarized.
+    To allow it, run:
       xattr -cr /Applications/RAG\\ Assistant.app
-    Then try opening it again.
+    Then open the app normally.
   EOS
 
   zap trash: [
