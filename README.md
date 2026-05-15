@@ -5,7 +5,7 @@ AI-powered research assistant for your Zotero library.
 ## Installation
 
 ```bash
-brew tap aahepburn/rag-assistant-for-zotero
+brew tap Quiet-Signals-Lab/rag-assistant-for-zotero
 brew install --cask rag-assistant-for-zotero
 ```
 
@@ -24,4 +24,4 @@ brew uninstall --cask rag-assistant-for-zotero
 
 ## More Information
 
-Visit the [main repository](https://github.com/aahepburn/RAG-Assistant-for-Zotero) for documentation and support.
+Visit the [main repository](https://github.com/Quiet-Signals-Lab/RAG-Assistant-for-Zotero) for documentation and support.
