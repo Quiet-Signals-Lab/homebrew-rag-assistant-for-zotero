@@ -2,6 +2,8 @@
 
 AI-powered research assistant for your Zotero library.
 
+> **macOS only.** This Homebrew cask installs the macOS desktop app.
+
 ## Installation
 
 ```bash
