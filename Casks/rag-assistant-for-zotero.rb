@@ -1,8 +1,8 @@
 cask "rag-assistant-for-zotero" do
-  version "0.4.5"
-  sha256 "86ae7877756b53ce3adc6815c71b8d9dbda9cc84d1ace8544344f3661fc99d75"
+  version "0.5.1"
+  sha256 "fbf1363c74189ca345fbe60b8c8549362f4167c52d1688ab946c7e5bff80f2a4"
 
-  url "https://github.com/Quiet-Signals-Lab/RAG-Assistant-for-Zotero/releases/download/v#{version}/RAG.Assistant-#{version}-mac-arm64.dmg"
+  url "https://github.com/Quiet-Signals-Lab/RAG-Assistant-for-Zotero/releases/download/v#{version}/RAG.Assistant-0.5.1-mac-arm64.dmg"
   name "RAG Assistant for Zotero"
   desc "AI-powered research assistant for your Zotero library"
   homepage "https://github.com/Quiet-Signals-Lab/RAG-Assistant-for-Zotero"
@@ -14,16 +14,9 @@ cask "rag-assistant-for-zotero" do
 
   app "RAG Assistant.app"
 
-  caveats <<~EOS
-    macOS Gatekeeper will block this app on first launch because it is not notarized.
-    To allow it, run:
-      xattr -cr /Applications/RAG\\ Assistant.app
-    Then open the app normally.
-  EOS
-
   zap trash: [
-    "~/Library/Application Support/rag-assistant",
-    "~/Library/Preferences/com.electron.rag-assistant.plist",
-    "~/Library/Saved Application State/com.electron.rag-assistant.savedState",
+    "~/Library/Application Support/RAG Assistant",
+    "~/Library/Preferences/com.aahepburn.zotero-rag.plist",
+    "~/Library/Saved Application State/com.aahepburn.zotero-rag.savedState",
   ]
 end
