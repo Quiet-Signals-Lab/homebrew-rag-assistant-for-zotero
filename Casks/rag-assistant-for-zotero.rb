@@ -1,8 +1,8 @@
 cask "rag-assistant-for-zotero" do
-  version "0.5.1"
-  sha256 "1c5cb8a89d5a49d5f328ba624cb363f7786a28d6b89a6a90ae8e66226ba731d4"
+  version "0.5.2"
+  sha256 "74464fd47ef12cce66921d82be36fbcd24c5628b62d6867e3c1d260188042316"
 
-  url "https://github.com/Quiet-Signals-Lab/RAG-Assistant-for-Zotero/releases/download/v#{version}/RAG.Assistant-0.5.1-mac-arm64.dmg"
+  url "https://github.com/Quiet-Signals-Lab/RAG-Assistant-for-Zotero/releases/download/v#{version}/RAG.Assistant-0.5.2-mac-arm64.dmg"
   name "RAG Assistant for Zotero"
   desc "AI-powered research assistant for your Zotero library"
   homepage "https://github.com/Quiet-Signals-Lab/RAG-Assistant-for-Zotero"
